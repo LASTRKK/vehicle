@@ -1,9 +1,9 @@
 <?php 
 
-include('footerForAll.php'); 
+include('footerForAll.html'); 
 session_start();	
 if($_SESSION["loggedIn"] == 0)
-	 	header("location: index.php");
+	 	header("location: index.html");
 	$user_ = $_SESSION["user"];
 
 ?>
@@ -162,11 +162,11 @@ input::-webkit-inner-spin-button {
     <ul class="nav navbar-nav navbar-center">
     <div><p><h3 style="color:blue;">VEHICLE INSPECTION </div></h3></ul>
     <ul class="nav navbar-nav navbar-right">
-      <li class="li"><a  href="index2.php">Home</a></li>
-      <li><a id = "li" href="front.php" >Entry Vehicle</a></li>
-      <li><a id = "li" href="returnvehicle.php" >Returned Vehicle</a></li>.
-      <li><a id = "li" href="contac.php" >Contact</a></li>
-      <li><a id = "li" href="logout.php" >Logout</a></li> 
+      <li class="li"><a  href="index2.html">Home</a></li>
+      <li><a id = "li" href="front.html" >Entry Vehicle</a></li>
+      <li><a id = "li" href="returnvehicle.html" >Returned Vehicle</a></li>.
+      <li><a id = "li" href="contac.html" >Contact</a></li>
+      <li><a id = "li" href="logout.html" >Logout</a></li> 
     </ul>
   </div>
 </nav>
@@ -208,7 +208,7 @@ display_c();
  
 
   
-	<form action="index2.php"method="post">
+	<form action="index2.html"method="post">
 		
 	<h1><label for="branch">Select Site:</label>
 
